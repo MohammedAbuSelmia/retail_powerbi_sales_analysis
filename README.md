@@ -1,13 +1,68 @@
-# retail_powerbi_sales_analysis
-This project is for a company that sells and supplies office supplies, furniture, and technology to all states in the United States. When I saw this data, many questions came to mind as a data analyst
+#  Retail Sales Performance Dashboard
 
-#In this project, you can see the level of professionalism involved in creating this report, as I used SQL and DAX.
-This project is for a company that sells and supplies office supplies, furniture, and technology to all states in the United States. When I saw this data, many questions came to mind as a data analyst: What are the best-selling categories in each state? What are our top-selling items by segment? What is the annual profit margin? What is the annual growth rate? And many more questions. Therefore, I will quickly outline what I did in this project: First: I imported the data from SQL into Power BI and then defined the columns I wanted to use in this project.
-Second: This is very important; I created a CALENDAR table containing all the necessary time details to perform many of the project's required measures.
-Third: I linked the CALENDAR table to the main table to perform the necessary operations and analyses accurately.
-Fourth: I created a separate measures table to make the project more organized.
-Fifth: On the first page of the project, I highlighted many important things, including the number of orders and the number of The data includes shipped orders, total sales, total sales for the previous year, the top five and bottom five sales categories, the top ten sales states for the year, the top and bottom customers, and many other valuable details on the first page.
+## Project Overview
+This project is a full-scale Power BI analytics solution built for a company that sells and supplies **office supplies, furniture, and technology** across all 50 U.S. states. The dataset was rich with potential — and as a data analyst, it immediately raised a set of critical business questions that shaped the entire project:
 
-On the second page, I've further refined the data by state, detailing the number of customers in each and showing comprehensive information for each customer by region. This is truly remarkable. I've also included sales figures for each category by region, highlighting the top-selling categories in each area.
+- What are the best-selling categories in each state?
+- Which products perform best by customer segment?
+- What is the annual profit margin, and how is it trending?
+- What is the year-over-year growth rate?
+- Who are our top and bottom performing customers?
 
-This project answers many important questions and effectively contributes to informed decision-making. The truly impressive aspect is that I've transformed raw data into a highly interactive and well-organized resource.
+>  **Fully Dynamic** — Every visual, metric, and filter updates instantly based on selections across State, Segment, Category, and Year — giving decision-makers complete control in real time.
+
+---
+
+##  Tools and Technologies
+`SQL` · `Power BI` · `DAX` · `Data Modeling`
+
+---
+
+##  Step 1 — Data Import amd Column Selection
+Imported the raw dataset from **SQL into Power BI** and carefully identified the columns most relevant to the project's analytical goals — keeping the model lean and focused.
+
+---
+
+##  Step 2 — Building the Calendar Table
+One of the most critical steps in any time-based analysis: I built a dedicated **CALENDAR table** containing all the time intelligence fields needed — year, quarter, month, day, and more. This table became the backbone of every date-related measure in the project.
+
+---
+
+##  Step 3 — Data Modeling
+Linked the CALENDAR table to the main fact table, establishing the relationships needed to perform accurate time-based calculations and ensure every measure behaves correctly across all visuals.
+
+---
+
+##  Step 4 — Measures Table
+To keep the project clean and scalable, I created a **dedicated measures table** housing all DAX calculations in one organized place — separating logic from data and making the model easy to maintain and expand.
+
+---
+
+##  Page 1 — Executive Sales Overview
+The first page delivers a comprehensive, high-level view of the company's sales performance — everything a decision-maker needs at a glance:
+
+- Total orders and shipped orders
+- Total sales and previous year sales (YoY comparison)
+- Top 5 and bottom 5 performing sales categories
+- Top 10 states by annual sales
+- Top and bottom performing customers
+- And several additional insights packed into a clean, interactive layout
+
+---
+
+##  Page 2 — Regional and Customer Deep Dive
+The second page zooms in on geography and customer behavior — giving regional managers the detail they need:
+
+- Number of customers per state
+- Full customer-level breakdown by region
+- Category sales performance across each region
+- Identification of the top-selling categories in each area
+
+This page was designed with one goal: make every region's performance fully transparent and easy to act on.
+
+---
+
+##  Impact
+This project takes raw, unstructured transactional data and transforms it into a **highly interactive, well-organized decision-making resource** — answering real business questions with real data, and empowering stakeholders to make informed, confident decisions.
+
+---
